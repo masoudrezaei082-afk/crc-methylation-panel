@@ -1,0 +1,43 @@
+{
+ "A_extended": {
+  "candidate_cpgs": 1824,
+  "hyper_down": 313,
+  "hyper_genes": 1888,
+  "hyper_up": 144,
+  "hypo_down": 246,
+  "hypo_genes": 3254,
+  "hypo_up": 223
+ },
+ "A_primary": {
+  "candidate_cpgs": 1289,
+  "hyper_down": 281,
+  "hyper_genes": 1616,
+  "hyper_up": 112,
+  "hypo_down": 211,
+  "hypo_genes": 2701,
+  "hypo_up": 186
+ },
+ "B_extended": {
+  "candidate_cpgs": 1770,
+  "hyper_down": 341,
+  "hyper_genes": 1824,
+  "hyper_up": 141,
+  "hypo_down": 173,
+  "hypo_genes": 2337,
+  "hypo_up": 155
+ },
+ "B_primary": {
+  "candidate_cpgs": 1202,
+  "hyper_down": 286,
+  "hyper_genes": 1481,
+  "hyper_up": 111,
+  "hypo_down": 140,
+  "hypo_genes": 1877,
+  "hypo_up": 121
+ },
+ "enrichment_terms_fdr05": 140,
+ "seconds": 244.5,
+ "spearman_frac_negative_sig": 0.9692691029900332,
+ "spearman_median_rho": -0.31286019372483054,
+ "spearman_n_pairs": 314
+}

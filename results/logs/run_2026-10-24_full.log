@@ -1,0 +1,661 @@
+[18:56:50] annot: start
+[18:57:02] annot: done in 12.0s
+[18:57:02] coad: start
+[18:57:22] COAD 450K: 346 columns -> 295 tumours, 38 normals
+[18:58:46] coad: done in 104.1s
+[18:58:46] pancan: start
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:02:49]   PAAD: 184 T / 10 N, 237s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1243: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:11:07]   BRCA: 784 T / 97 N, 498s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:16:52]   BLCA: 412 T / 21 N, 346s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:22:45]   LIHC: 377 T / 50 N, 352s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:29:22]   THCA: 507 T / 56 N, 397s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:35:19]   KIRC: 319 T / 160 N, 357s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:40:55]   LUSC: 370 T / 42 N, 336s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:45:24]   SARC: 261 T / 4 N, 269s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:49:31]   ESCA: 185 T / 16 N, 247s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[19:54:23]   CESC: 307 T / 3 N, 292s
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:42: RuntimeWarning: Mean of empty slice
+  "mean_t": np.nanmean(t, 1), "mean_n": np.nanmean(n, 1),
+/content/crc_meth_repro/src/crcmeth/specificity.py:43: RuntimeWarning: All-NaN slice encountered
+  "median_t": np.nanmedian(t, 1), "median_n": np.nanmedian(n, 1),
+[20:00:38]   LUAD: 458 T / 32 N, 375s
+[20:00:38] pancan: done in 3712.0s
+[20:00:38] dmc: start
+[20:02:10]   design B: 38947 DMCs (19841 hyper / 19106 hypo)
+[20:03:13]   design A: 50780 DMCs (24893 hyper / 25887 hypo)
+[20:03:16] dmc: done in 157.5s
+[20:03:16] rna: start
+[20:03:26]   DESeq2 on 23220 genes, 458 T / 41 N
+[20:07:31] rna: done in 255.6s
+[20:07:31] integrate: start
+[20:11:36] integrate: done in 244.5s
+[20:11:36] specificity: start
+[20:12:47] specificity: done in 71.6s
+[20:12:47] network: start
+[20:21:43]   design A: 239 genes / 891 CpGs / 754 TFs; top10 overlap with paper 0
+[20:22:29]   beta sweep / STRING 700 / edge bootstrap
+[20:26:49]   design B: 261 genes / 943 CpGs / 754 TFs; top10 overlap with paper 0
+[20:26:49] network: done in 841.5s
+[20:26:49] geo: start
+[20:27:55] geo: done in 66.0s
+[20:27:55] classify: start
+[20:41:36]   null panels
+[20:42:58]   nested CV (selection redone inside each outer fold)
+[20:44:16]     fold: 38100 DMC, 418 specific, panel overlap 0/11
+[20:45:11]     fold: 38587 DMC, 377 specific, panel overlap 0/11
+[20:46:09]     fold: 38786 DMC, 408 specific, panel overlap 0/11
+[20:47:07]     fold: 40071 DMC, 418 specific, panel overlap 0/11
+[20:48:03]     fold: 39126 DMC, 389 specific, panel overlap 0/11
+[20:48:18] classify: done in 1223.5s
+[20:48:18] report: start
+[20:48:42] report: done in 23.6s
+[20:55:23] annot: cached
+[20:55:23] coad: cached
+[20:55:23] pancan: cached
+[20:55:23] dmc: cached
+[20:55:23] rna: cached
+[20:55:23] integrate: cached
+[20:55:23] specificity: cached
+[20:55:23] network: cached
+[20:55:23] geo: start
+[20:56:21] geo: done in 58.3s
+[20:56:21] classify: start
+[21:13:39]   null panels
+[21:13:41]   nested CV (selection redone inside each outer fold)
+[21:14:10] classify: done in 1069.0s
+[21:14:10] report: start
+[21:14:32] report: done in 22.1s

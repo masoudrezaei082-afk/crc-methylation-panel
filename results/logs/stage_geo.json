@@ -1,0 +1,36 @@
+{
+ "GSE131013": {
+  "beta_range": [
+   0.0,
+   0.9679114818572998
+  ],
+  "groups": {
+   "adjacent_normal": 96,
+   "healthy_mucosa": 48,
+   "tumor": 96
+  },
+  "missing_network_prioritized": [],
+  "n_samples": 240,
+  "n_series_samples": 240,
+  "series_matrix_tissue": {
+   "Mucosa": 48,
+   "Normal": 96,
+   "Tumor": 96
+  }
+ },
+ "GSE48684": {
+  "beta_range": [
+   0.0,
+   0.9958090782165527
+  ],
+  "groups": {
+   "adenoma": 42,
+   "cancer": 64,
+   "normal-c": 24,
+   "normal-h": 17
+  },
+  "missing_network_prioritized": [],
+  "n_samples": 147
+ },
+ "seconds": 53.0
+}

@@ -1,0 +1,156 @@
+{
+ "GPL13534_HumanMethylation450_15017482_v.1.1.csv.gz": {
+  "bytes": 63979757,
+  "file": "GPL13534_HumanMethylation450_15017482_v.1.1.csv.gz",
+  "md5": "1c38681926364d725e394cb99ddda2cb",
+  "retrieved_utc": "2026-10-18T18:56:51Z",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL13nnn/GPL13534/suppl/GPL13534_HumanMethylation450_15017482_v.1.1.csv.gz"
+ },
+ "GSE122126-GPL21145_series_matrix.txt.gz": {
+  "bytes": 94785770,
+  "file": "GSE122126-GPL21145_series_matrix.txt.gz",
+  "md5": "8149cebfbf08c266e42b064393fbedfb",
+  "retrieved_utc": "2026-11-06T23:10:01Z",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122126/matrix/GSE122126-GPL21145_series_matrix.txt.gz"
+ },
+ "GSE131013_normalized_matrix.txt.gz": {
+  "bytes": 490682784,
+  "file": "GSE131013_normalized_matrix.txt.gz",
+  "md5": "fabae8db7263015412a14385cf2f451c",
+  "retrieved_utc": "2026-11-06T22:24:05Z",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131013/suppl/GSE131013_normalized_matrix.txt.gz"
+ },
+ "GSE131013_series_matrix.txt.gz": {
+  "bytes": 13083,
+  "file": "GSE131013_series_matrix.txt.gz",
+  "md5": "181571bf66d5842b9d80e06f96a17492",
+  "retrieved_utc": "2026-11-06T22:23:50Z",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131013/matrix/GSE131013_series_matrix.txt.gz"
+ },
+ "GSE35069_series_matrix.txt.gz": {
+  "bytes": 123432101,
+  "file": "GSE35069_series_matrix.txt.gz",
+  "md5": "30faffe25ebcdf577a11a988d5f54147",
+  "retrieved_utc": "2026-11-06T23:09:54Z",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE35nnn/GSE35069/matrix/GSE35069_series_matrix.txt.gz"
+ },
+ "GSE40279_series_matrix.txt.gz": {
+  "bytes": 1237679628,
+  "file": "GSE40279_series_matrix.txt.gz",
+  "md5": "5506575f4598dd4b88cbcdbdd90ac826",
+  "retrieved_utc": "2026-11-06T23:09:04Z",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE40nnn/GSE40279/matrix/GSE40279_series_matrix.txt.gz"
+ },
+ "GSE48684_series_matrix.txt.gz": {
+  "bytes": 296204043,
+  "file": "GSE48684_series_matrix.txt.gz",
+  "md5": "f4d6a5ae0a33503903d975af27b45b49",
+  "retrieved_utc": "2026-11-06T22:23:38Z",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48684/matrix/GSE48684_series_matrix.txt.gz"
+ },
+ "HM450.hg38.mask.tsv.gz": {
+  "bytes": 1592024,
+  "file": "HM450.hg38.mask.tsv.gz",
+  "md5": "e9ac07c169b27f57f2715dac174f3546",
+  "retrieved_utc": "2026-10-18T18:56:59Z",
+  "url": "https://github.com/zhou-lab/InfiniumAnnotationV1/raw/main/Anno/HM450/HM450.hg38.mask.tsv.gz"
+ },
+ "TCGA-BLCA.methylation450.tsv.gz": {
+  "bytes": 1473380912,
+  "file": "TCGA-BLCA.methylation450.tsv.gz",
+  "md5": "1b9a4251debe1fb3532c77f6ea2e001c",
+  "retrieved_utc": "2026-10-18T19:11:35Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-BLCA.methylation450.tsv.gz"
+ },
+ "TCGA-BRCA.methylation450.tsv.gz": {
+  "bytes": 2985684079,
+  "file": "TCGA-BRCA.methylation450.tsv.gz",
+  "md5": "eb6b17f2f0aa227274f1db60d1f46d1c",
+  "retrieved_utc": "2026-10-18T19:03:53Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-BRCA.methylation450.tsv.gz"
+ },
+ "TCGA-CESC.methylation450.tsv.gz": {
+  "bytes": 1052570739,
+  "file": "TCGA-CESC.methylation450.tsv.gz",
+  "md5": "72221b7842fcff0a27349afc17b88615",
+  "retrieved_utc": "2026-10-18T19:49:53Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-CESC.methylation450.tsv.gz"
+ },
+ "TCGA-COAD.methylation450.tsv.gz": {
+  "bytes": 1178010264,
+  "file": "TCGA-COAD.methylation450.tsv.gz",
+  "md5": "65eb0c4691ddfa70489a92ae1ca1a631",
+  "retrieved_utc": "2026-10-18T18:57:22Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-COAD.methylation450.tsv.gz"
+ },
+ "TCGA-COAD.star_counts.tsv.gz": {
+  "bytes": 51851569,
+  "file": "TCGA-COAD.star_counts.tsv.gz",
+  "md5": "51ec692522a9674c07c41f96c4fd644a",
+  "retrieved_utc": "2026-10-18T20:03:17Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-COAD.star_counts.tsv.gz"
+ },
+ "TCGA-ESCA.methylation450.tsv.gz": {
+  "bytes": 684102133,
+  "file": "TCGA-ESCA.methylation450.tsv.gz",
+  "md5": "1c892f5ed3c6852f507e2762b5b77514",
+  "retrieved_utc": "2026-10-18T19:45:37Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-ESCA.methylation450.tsv.gz"
+ },
+ "TCGA-KIRC.methylation450.tsv.gz": {
+  "bytes": 1628945910,
+  "file": "TCGA-KIRC.methylation450.tsv.gz",
+  "md5": "b914384e7a4925eacbd6e5e2bb9c31ee",
+  "retrieved_utc": "2026-10-18T19:29:54Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-KIRC.methylation450.tsv.gz"
+ },
+ "TCGA-LIHC.methylation450.tsv.gz": {
+  "bytes": 1439452304,
+  "file": "TCGA-LIHC.methylation450.tsv.gz",
+  "md5": "585aeed51f82f1aadad6fc485f48a7ce",
+  "retrieved_utc": "2026-10-18T19:17:44Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LIHC.methylation450.tsv.gz"
+ },
+ "TCGA-LUAD.methylation450.tsv.gz": {
+  "bytes": 1706564154,
+  "file": "TCGA-LUAD.methylation450.tsv.gz",
+  "md5": "7b28528ff5eb32a815503f6fdce1b8ec",
+  "retrieved_utc": "2026-10-18T19:54:57Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUAD.methylation450.tsv.gz"
+ },
+ "TCGA-LUSC.methylation450.tsv.gz": {
+  "bytes": 1394459408,
+  "file": "TCGA-LUSC.methylation450.tsv.gz",
+  "md5": "985005985a2d1d6e89e873066a33fd50",
+  "retrieved_utc": "2026-10-18T19:35:44Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUSC.methylation450.tsv.gz"
+ },
+ "TCGA-PAAD.methylation450.tsv.gz": {
+  "bytes": 657966496,
+  "file": "TCGA-PAAD.methylation450.tsv.gz",
+  "md5": "bcaf1ee9130951f944cf0f824912ea33",
+  "retrieved_utc": "2026-10-18T18:59:03Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-PAAD.methylation450.tsv.gz"
+ },
+ "TCGA-SARC.methylation450.tsv.gz": {
+  "bytes": 899534036,
+  "file": "TCGA-SARC.methylation450.tsv.gz",
+  "md5": "22c5d116656a59c02df836e1e9884c78",
+  "retrieved_utc": "2026-10-18T19:41:15Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-SARC.methylation450.tsv.gz"
+ },
+ "TCGA-THCA.methylation450.tsv.gz": {
+  "bytes": 1935473066,
+  "file": "TCGA-THCA.methylation450.tsv.gz",
+  "md5": "08dd5a6178bdfec83d5ea48e6ed68feb",
+  "retrieved_utc": "2026-10-18T19:23:21Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-THCA.methylation450.tsv.gz"
+ },
+ "gencode_v36_probemap.tsv": {
+  "bytes": 3206945,
+  "file": "gencode_v36_probemap.tsv",
+  "md5": "59d24b459af04b543cf1d5d4161a98fc",
+  "retrieved_utc": "2026-10-18T18:57:00Z",
+  "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/gencode.v36.annotation.gtf.gene.probemap"
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "A": {
+  "n_dmc": 50780,
+  "n_hyper": 24893,
+  "n_hypo": 25887,
+  "n_normal": 98,
+  "n_probes_tested": 397528,
+  "n_tumor": 295,
+  "regions": {
+   "fig1A_CGI": {
+    "hyper": 17011,
+    "hypo": 843
+   },
+   "fig1A_CGI_promoter": {
+    "hyper": 5352,
+    "hypo": 49
+   },
+   "fig1A_all": {
+    "hyper": 24893,
+    "hypo": 25887
+   },
+   "fig1A_promoter": {
+    "hyper": 7855,
+    "hypo": 4431
+   },
+   "fig1B_island": {
+    "Island": {
+     "hyper": 17011,
+     "hypo": 843
+    },
+    "N_Shelf": {
+     "hyper": 223,
+     "hypo": 1857
+    },
+    "N_Shore": {
+     "hyper": 3592,
+     "hypo": 2555
+    },
+    "OpenSea": {
+     "hyper": 1648,
+     "hypo": 16967
+    },
+    "S_Shelf": {
+     "hyper": 170,
+     "hypo": 1730
+    },
+    "S_Shore": {
+     "hyper": 2249,
+     "hypo": 1935
+    }
+   },
+   "fig1C_region": {
+    "1stExon": {
+     "hyper": 3353,
+     "hypo": 828
+    },
+    "3'UTR": {
+     "hyper": 427,
+     "hypo": 1041
+    },
+    "5'UTR": {
+     "hyper": 4283,
+     "hypo": 2032
+    },
+    "Body": {
+     "hyper": 6818,
+     "hypo": 9055
+    },
+    "TSS1500": {
+     "hyper": 4278,
+     "hypo": 3298
+    },
+    "TSS200": {
+     "hyper": 3861,
+     "hypo": 1223
+    }
+   },
+   "fig1D_genes": {
+    "hyper": 3278,
+    "hypo": 6484
+   }
+  }
+ },
+ "B": {
+  "n_dmc": 38947,
+  "n_hyper": 19841,
+  "n_hypo": 19106,
+  "n_normal": 38,
+  "n_probes_tested": 397605,
+  "n_tumor": 295,
+  "regions": {
+   "fig1A_CGI": {
+    "hyper": 13923,
+    "hypo": 492
+   },
+   "fig1A_CGI_promoter": {
+    "hyper": 4623,
+    "hypo": 26
+   },
+   "fig1A_all": {
+    "hyper": 19841,
+    "hypo": 19106
+   },
+   "fig1A_promoter": {
+    "hyper": 6433,
+    "hypo": 2869
+   },
+   "fig1B_island": {
+    "Island": {
+     "hyper": 13923,
+     "hypo": 492
+    },
+    "N_Shelf": {
+     "hyper": 188,
+     "hypo": 1225
+    },
+    "N_Shore": {
+     "hyper": 2723,
+     "hypo": 1524
+    },
+    "OpenSea": {
+     "hyper": 1166,
+     "hypo": 13577
+    },
+    "S_Shelf": {
+     "hyper": 168,
+     "hypo": 1185
+    },
+    "S_Shore": {
+     "hyper": 1673,
+     "hypo": 1103
+    }
+   },
+   "fig1C_region": {
+    "1stExon": {
+     "hyper": 2604,
+     "hypo": 585
+    },
+    "3'UTR": {
+     "hyper": 382,
+     "hypo": 727
+    },
+    "5'UTR": {
+     "hyper": 3517,
+     "hypo": 1395
+    },
+    "Body": {
+     "hyper": 5693,
+     "hypo": 6402
+    },
+    "TSS1500": {
+     "hyper": 3586,
+     "hypo": 2126
+    },
+    "TSS200": {
+     "hyper": 3089,
+     "hypo": 794
+    }
+   },
+   "fig1D_genes": {
+    "hyper": 3206,
+    "hypo": 4814
+   }
+  }
+ },
+ "extracted_normals": {
+  "ESCA": [
+   "TCGA-IG-A3I8-11A",
+   "TCGA-L5-A4OF-11A",
+   "TCGA-L5-A4OG-11A",
+   "TCGA-L5-A4OJ-11A",
+   "TCGA-L5-A4OM-11A",
+   "TCGA-L5-A4ON-11A",
+   "TCGA-L5-A4OP-11A",
+   "TCGA-L5-A4OQ-11A",
+   "TCGA-V5-A7RE-11A",
+   "TCGA-V5-AASX-11A"
+  ],
+  "KIRC": [
+   "TCGA-A3-3373-11A",
+   "TCGA-B0-4693-11A",
+   "TCGA-B0-4710-11A",
+   "TCGA-B0-4811-11A",
+   "TCGA-B0-4945-11A",
+   "TCGA-B0-5096-11A",
+   "TCGA-BP-4177-11A",
+   "TCGA-BP-4770-11A",
+   "TCGA-BP-5185-11A",
+   "TCGA-CZ-5465-11A"
+  ],
+  "LIHC": [
+   "TCGA-BC-A10R-11A",
+   "TCGA-BC-A10Z-11A",
+   "TCGA-DD-A118-11A",
+   "TCGA-DD-A11B-11A",
+   "TCGA-DD-A1EE-11A",
+   "TCGA-DD-A1EG-11A",
+   "TCGA-DD-A1EL-11A",
+   "TCGA-DD-A39V-11A",
+   "TCGA-EP-A26S-11A",
+   "TCGA-FV-A2QR-11A"
+  ],
+  "LUAD": [
+   "TCGA-05-5420-11A",
+   "TCGA-44-2656-11A",
+   "TCGA-44-2668-11A",
+   "TCGA-44-6144-11A",
+   "TCGA-44-6778-11A",
+   "TCGA-50-5931-11A",
+   "TCGA-50-5936-11A",
+   "TCGA-50-6591-11A",
+   "TCGA-50-6593-11A",
+   "TCGA-50-6594-11A"
+  ],
+  "PAAD": [
+   "TCGA-FZ-5919-11A",
+   "TCGA-FZ-5920-11A",
+   "TCGA-FZ-5922-11A",
+   "TCGA-FZ-5923-11A",
+   "TCGA-FZ-5924-11A",
+   "TCGA-FZ-5926-11A",
+   "TCGA-H6-8124-11A",
+   "TCGA-H6-A45N-11A",
+   "TCGA-HV-A5A3-11A",
+   "TCGA-YB-A89D-11A"
+  ],
+  "THCA": [
+   "TCGA-BJ-A28T-11A",
+   "TCGA-BJ-A2N9-11A",
+   "TCGA-BJ-A3PR-11A",
+   "TCGA-E8-A2JQ-11A",
+   "TCGA-EL-A3GZ-11A",
+   "TCGA-EL-A3H1-11A",
+   "TCGA-EL-A3T3-11A",
+   "TCGA-EL-A3ZH-11A",
+   "TCGA-EM-A1CV-11A",
+   "TCGA-ET-A2N5-11B"
+  ]
+ },
+ "jaccard_hyper": 0.6496899911426041,
+ "jaccard_hypo": 0.5362969564025226,
+ "only_A_hyper": 7268,
+ "only_A_hypo": 10097,
+ "only_B_hyper": 2224,
+ "only_B_hypo": 3432,
+ "seconds": 157.5
+}

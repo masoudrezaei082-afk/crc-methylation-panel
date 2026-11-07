@@ -1,0 +1,11 @@
+panel,depth,lowest_fraction_detected
+SEPT9_promoter,0,
+SEPT9_promoter,100,
+blood_compatible_11,0,0.1
+blood_compatible_11,100,0.1
+network_prioritized_11,0,0.1
+network_prioritized_11,100,0.1
+screened_11,0,0.1
+screened_11,100,0.1
+network_prioritized_blood_compatible,0,0.05
+network_prioritized_blood_compatible,100,0.1

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "crc-methylation-panel: code for Genome-Wide Methylation Profiling Uncovers Specific Biomarkers for Colon Cancer Diagnosis"
+type: software
+license: MIT
+repository-code: "https://github.com/masoudrezaei082-afk/crc-methylation-panel"
+authors:
+  - family-names: Mahmoudabadi
+    given-names: Ali
+    affiliation: "Department of Medical Genetics, Kerman University of Medical Sciences, Kerman, Iran"
+  - family-names: Rezaei
+    given-names: Masoud
+    affiliation: "Research Center for Hydatid Disease in Iran, Kerman University of Medical Sciences, Kerman, Iran"
+  - family-names: Askari
+    given-names: Asma
+    affiliation: "Tropical and Infectious Diseases Research Center, Kerman University of Medical Sciences; Department of Pathobiology, School of Veterinary Medicine, Shahid Bahonar University of Kerman, Kerman, Iran"
+preferred-citation:
+  type: article
+  title: "Genome-Wide Methylation Profiling Uncovers Specific Biomarkers for Colon Cancer Diagnosis"
+  authors:
+    - family-names: Mahmoudabadi
+      given-names: Ali
+    - family-names: Rezaei
+      given-names: Masoud
+    - family-names: Askari
+      given-names: Asma

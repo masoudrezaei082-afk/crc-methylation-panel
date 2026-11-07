@@ -1,0 +1,50 @@
+{
+ "probes": 397605,
+ "pairs": 38,
+ "DMCs main": 38947,
+ "DMCs paired": 41103,
+ "DMCs mwu same 38 pairs (pairing ignored)": 40817,
+ "DMCs signed-rank FDR with main delta": 38949,
+ "main DMCs signed-rank FDR >= 0.05": 25,
+ "main DMCs kept by paired test": 36213,
+ "main DMCs with same sign of paired delta": 38947,
+ "main DMCs paired FDR < 0.05": 38922,
+ "main DMCs paired |delta| > 0.2": 36217,
+ "Pearson r of delta (main vs paired), all probes": 0.9893016879389952,
+ "screen: cancers and pairs": {
+  "PAAD": 10,
+  "BRCA": 91,
+  "BLCA": 21,
+  "LIHC": 50,
+  "THCA": 56,
+  "KIRC": 160,
+  "LUSC": 40,
+  "SARC": 4,
+  "ESCA": 16,
+  "CESC": 3
+ },
+ "paired candidates without a paired screen p (kept rows / missingness)": {
+  "PAAD": 28,
+  "BRCA": 76,
+  "BLCA": 11,
+  "LIHC": 19,
+  "THCA": 14,
+  "KIRC": 33,
+  "LUSC": 22,
+  "SARC": 60,
+  "ESCA": 14,
+  "CESC": 11
+ },
+ "screen: smallest attainable two-sided p": {
+  "PAAD": 0.001953125,
+  "BRCA": 8.077935669463161e-28,
+  "BLCA": 9.5367431640625e-07,
+  "LIHC": 1.7763568394002505e-15,
+  "THCA": 2.7755575615628914e-17,
+  "KIRC": 1.3684555315672042e-48,
+  "LUSC": 1.8189894035458565e-12,
+  "SARC": 0.125,
+  "ESCA": 3.0517578125e-05,
+  "CESC": 0.25
+ }
+}

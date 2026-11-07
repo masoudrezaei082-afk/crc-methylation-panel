@@ -1,0 +1,12 @@
+probe,annotation,island,zhou_masked,A_passes_qc,A_delta,A_fdr,A_status,A_primary_candidate,A_extended_candidate,B_passes_qc,B_delta,B_fdr,B_status,B_primary_candidate,B_extended_candidate,B_extended_specific,B_extended_excluded_by,A_primary_specific,A_primary_excluded_by,A_extended_specific,A_extended_excluded_by,B_primary_specific,B_primary_excluded_by
+cg11909912,LOC100130148:Body;MAPT:5'UTR,Island,False,True,0.3254,1.92358393167058e-39,hyper,False,False,True,0.2669,1.1881764233666087e-17,hyper,False,True,True,,,,,,,
+cg02450613,GDNF:TSS1500,Island,False,True,0.4228,1.3031658547274788e-38,hyper,True,True,True,0.4277,4.4075790700064996e-17,hyper,True,True,True,,True,,True,,True,
+cg09980522,GRIA4:1stExon;GRIA4:Body,S_Shore,False,True,0.3976,3.5548671218469003e-32,hyper,False,True,True,0.3395,5.665759138362645e-12,hyper,False,True,True,,,,True,,,
+cg06999323,NEFL:TSS1500,S_Shore,False,True,0.3383,3.008249350456392e-34,hyper,True,True,True,0.2954,9.864182974368241e-13,hyper,True,True,True,,True,,True,,True,
+cg15032098,UCHL1:TSS1500,N_Shore,False,True,0.2999,2.0517284132369324e-26,hyper,True,True,True,0.2985,1.2455190176730148e-12,hyper,True,True,True,,True,,True,,True,
+cg05659265,GNAO1:1stExon;GNAO1:5'UTR;LOC283856:TSS1500,Island,False,True,0.2302,6.879367651408731e-23,hyper,False,True,True,0.2383,4.929485542136225e-11,hyper,False,True,True,,,,True,,,
+cg08976810,FGF10:TSS1500,OpenSea,False,True,0.4084,8.644385265283049e-38,hyper,True,True,True,0.219,1.0677430745953398e-13,hyper,True,True,True,,True,,True,,True,
+cg03203223,RELN:TSS1500,Island,False,True,0.4099,5.787549618295174e-35,hyper,True,True,True,0.4107,6.207429871727971e-15,hyper,True,True,True,,True,,True,,True,
+cg16368442,GRIN2A:TSS1500;GRIN2A:TSS200,Island,False,True,0.4988,1.7071826588473722e-42,hyper,True,True,True,0.4759,2.885184761888276e-19,hyper,True,True,True,,True,,True,,True,
+cg01035160,SNCA:5'UTR;SNCA:TSS1500;SNCA:TSS200,Island,False,True,0.2965,2.1417884520176967e-13,hyper,True,True,True,0.2906,0.00010396313551714463,hyper,True,True,True,,True,,True,,True,
+cg03742003,SLIT2:1stExon;SLIT2:5'UTR,Island,False,True,0.3525,4.3012443662942206e-39,hyper,False,True,True,0.3176,5.489469974137465e-17,hyper,False,True,True,,,,True,,,

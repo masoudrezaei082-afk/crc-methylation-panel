@@ -1,0 +1,107 @@
+# Single source of every constant used by the pipeline.
+# Values marked "stated" are the choices given in the manuscript Methods; everything
+# else is a documented default.
+
+seed: 20251027
+workdir: /content/work          # raw downloads + stage caches (overridable: --workdir)
+resultsdir: /content/results    # tables, figures, metrics (overridable: --resultsdir)
+keep_raw: false                 # delete each TCGA matrix after it is streamed
+
+urls:
+  gdc_hub: https://gdc-hub.s3.us-east-1.amazonaws.com/download
+  gpl13534: https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL13nnn/GPL13534/suppl/GPL13534_HumanMethylation450_15017482_v.1.1.csv.gz
+  zhou_mask: https://github.com/zhou-lab/InfiniumAnnotationV1/raw/main/Anno/HM450/HM450.hg38.mask.tsv.gz  # M_general; no hg19 mask file exists
+  gene_probemap: https://gdc-hub.s3.us-east-1.amazonaws.com/download/gencode.v36.annotation.gtf.gene.probemap
+  gse48684_matrix: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48684/matrix/GSE48684_series_matrix.txt.gz
+  gse131013_matrix: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131013/matrix/GSE131013_series_matrix.txt.gz
+  gse131013_betas: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131013/suppl/GSE131013_normalized_matrix.txt.gz
+  gse40279_matrix: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE40nnn/GSE40279/matrix/GSE40279_series_matrix.txt.gz    # whole blood, 656 donors
+  gse35069_matrix: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE35nnn/GSE35069/matrix/GSE35069_series_matrix.txt.gz    # sorted leukocytes, 6 donors
+  gse122126_epic_matrix: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122126/matrix/GSE122126-GPL21145_series_matrix.txt.gz  # plasma cfDNA atlas (EPIC)
+  string_api: https://string-db.org/api
+  ucsc_api: https://api.genome.ucsc.edu/getData/sequence
+
+# Comparator (network-prioritized) panel: derived inside the pipeline (stage `network`) from the
+# colon-specific CpGs of the primary design. A CpG-gene-TF multiplex network (STRING, JASPAR) is ranked
+# by aggregated multiplex PageRank; the panel takes the best-delta CpG of each gene in PageRank order
+# until `classify.panel_size` CpGs. It replaces the 11 CpGs of the Oct 27 draft, whose ranking could
+# not be reproduced (nine of the ten genes tied at 0.001953 = 1/512).
+network:
+  string_required_score: 400   # STRING combined score >= 0.4 (sensitivity: 700)
+  jaspar_release: JASPAR2024
+  jaspar_collection: CORE
+  jaspar_tax_group: vertebrates
+  promoter_upstream: 1000
+  promoter_downstream: 200
+  motif_pvalue: 1.0e-4
+  layer_weights: {cpg: 0.3333333333, ppi: 0.3333333333, tf: 0.3333333333}
+  alpha: 0.85
+  tol: 1.0e-6
+  top_k_genes: 10              # genes reported / used for the sensitivity analyses
+  beta_grid_step: 0.1
+  n_bootstrap: 200
+  edge_keep_frac: 0.9
+
+# Specificity screen (stated: 10 cancers with tumor + normal tissue).
+screen_cancers: [PAAD, BRCA, BLCA, LIHC, THCA, KIRC, LUSC, SARC, ESCA, CESC]
+# Design A control set (stated): 38 colon normals + 10 random normals from each.
+design_a_normal_sources: [ESCA, THCA, PAAD, LUAD, LIHC, KIRC]
+design_a_per_source: 10
+
+designs:
+  primary: B            # B = 38 colon normals only; A = 98 mixed normals (sensitivity analysis)
+
+probe_qc:
+  drop_sex_chrom: true
+  use_zhou_mask: true          # MASK_general (SNP, cross-hybridising, low mapping)
+  max_missing_frac: 0.10       # stated
+  impute: median               # median | knn   (median: stated)
+
+dmc:
+  test: mannwhitney            # stated: Wilcoxon rank-sum
+  fdr: 0.05                    # stated
+  min_abs_delta_beta: 0.2      # stated
+  chunk_rows: 40000
+
+deg:
+  padj: 0.05                   # stated
+  min_abs_log2fc: 1.5          # stated, log2 scale
+  min_count: 10
+  min_samples_frac: 0.10
+  n_cpus: 2
+
+promoter_groups:
+  primary: [TSS1500, TSS200]   # core definition
+  extended: [TSS1500, TSS200, 5'UTR, 1stExon]
+
+specificity:
+  # A candidate is removed when it is a DMC (same thresholds) in any screened cancer.
+  rule: dmc_any                # dmc_any (stated) | dmc_or_high (adds absolute rule)
+  absolute_max_tumor_median: 0.30
+  min_normals_for_test: 5      # cancers below this are flagged as underpowered
+
+classify:
+  positive_class: tumor
+  cv_folds: 10
+  cv_repeats: 5
+  nested_outer_folds: 5
+  split_train_frac: 0.70       # single stratified 70/30 hold-out
+  models: [logreg, mlp, rf]
+  mlp_hidden: [10]             # one hidden layer of 10 units
+  mlp_max_iter: 2000
+  rf_trees: 500
+  n_null_panels: 1000
+  n_boot_auc: 2000
+  panel_size: 11               # stated: 11 CpGs
+  # panel rule: best CpG per gene, genes by decreasing delta (classify.delta_panel)
+  panel_promoter_groups: extended  # cg22657780 maps to ZNF385B only via 1stExon/5'UTR
+
+blood:
+  # Plasma cfDNA is mostly leukocyte DNA: a marker must be unmethylated in blood.
+  max_blood_beta: 0.10         # max(whole-blood 95th percentile, highest sorted-leukocyte median)
+  min_margin: 0.20             # TCGA tumour median minus that blood beta
+  tumor_fractions: [0.005, 0.01, 0.02, 0.05, 0.10, 0.20]
+  read_depths: [0, 100]        # 0 = array readout; >0 = binomial bisulfite reads per CpG
+  n_mixtures: 1000             # simulated cases (and controls) per panel, fraction and depth
+  specificity: 0.95            # sensitivity is read at this quantile of control scores
+  lod_sensitivity: 0.80        # detection limit = lowest fraction with at least this sensitivity

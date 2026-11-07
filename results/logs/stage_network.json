@@ -1,0 +1,103 @@
+{
+ "bootstrap_top10_freq": [
+  1.0,
+  1.0,
+  0.88,
+  0.985,
+  0.9,
+  0.845,
+  0.8,
+  0.65,
+  0.715,
+  0.745
+ ],
+ "max_abs_diff_vs_networkx": 5.551115123125783e-17,
+ "max_tie_in_top10": 1,
+ "n_cpgs": 943,
+ "n_edges": 57755,
+ "n_genes": 261,
+ "n_ppi_edges": 371,
+ "n_specific_cpgs": 943,
+ "n_tf_edges": 56061,
+ "n_tfs": 754,
+ "panel": [
+  "cg11909912",
+  "cg02450613",
+  "cg09980522",
+  "cg06999323",
+  "cg15032098",
+  "cg05659265",
+  "cg08976810",
+  "cg03203223",
+  "cg16368442",
+  "cg01035160",
+  "cg03742003"
+ ],
+ "panel_masked": 0,
+ "parameters": {
+  "alpha": 0.85,
+  "beta_grid_step": 0.1,
+  "edge_keep_frac": 0.9,
+  "jaspar_collection": "CORE",
+  "jaspar_release": "JASPAR2024",
+  "jaspar_tax_group": "vertebrates",
+  "layer_weights": {
+   "cpg": 0.3333333333,
+   "ppi": 0.3333333333,
+   "tf": 0.3333333333
+  },
+  "motif_pvalue": 0.0001,
+  "n_bootstrap": 200,
+  "promoter_downstream": 200,
+  "promoter_upstream": 1000,
+  "string_release_served": [
+   {
+    "stable_address": "https://version-12-5.string-db.org",
+    "string_version": "12.5"
+   }
+  ],
+  "string_required_score": 400,
+  "tol": 1e-06,
+  "top_k_genes": 10
+ },
+ "seconds": 242.0,
+ "string700_top10": [
+  "GDNF",
+  "MAPT",
+  "GRIA4",
+  "FGF10",
+  "HAND2",
+  "NEFL",
+  "GFRA1",
+  "EPHA7",
+  "EPHA6",
+  "EPHA5"
+ ],
+ "string700_top10_overlap": 5,
+ "sweep_median_top_overlap": 10.0,
+ "sweep_min_top_overlap": 1,
+ "top10": [
+  "MAPT",
+  "GDNF",
+  "GRIA4",
+  "NEFL",
+  "UCHL1",
+  "GNAO1",
+  "FGF10",
+  "RELN",
+  "GRIN2A",
+  "SNCA"
+ ],
+ "top10_pagerank": [
+  0.03882259,
+  0.01773038,
+  0.01427215,
+  0.01334799,
+  0.01127866,
+  0.01062587,
+  0.01057083,
+  0.00996163,
+  0.00995687,
+  0.0099372
+ ]
+}

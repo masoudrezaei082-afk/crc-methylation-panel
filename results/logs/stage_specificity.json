@@ -1,0 +1,87 @@
+{
+ "A_extended": {
+  "candidates": 1824,
+  "excluded_by": {
+   "BLCA": 403,
+   "BRCA": 506,
+   "CESC": 0,
+   "ESCA": 434,
+   "KIRC": 82,
+   "LIHC": 184,
+   "LUSC": 255,
+   "PAAD": 471,
+   "SARC": 0,
+   "THCA": 1
+  },
+  "specific": 891,
+  "specific_dmc_or_high": 427,
+  "underpowered": [
+   "CESC",
+   "SARC"
+  ]
+ },
+ "A_primary": {
+  "candidates": 1289,
+  "excluded_by": {
+   "BLCA": 254,
+   "BRCA": 338,
+   "CESC": 0,
+   "ESCA": 282,
+   "KIRC": 58,
+   "LIHC": 106,
+   "LUSC": 155,
+   "PAAD": 300,
+   "SARC": 0,
+   "THCA": 1
+  },
+  "specific": 660,
+  "specific_dmc_or_high": 307,
+  "underpowered": [
+   "CESC",
+   "SARC"
+  ]
+ },
+ "B_extended": {
+  "candidates": 1770,
+  "excluded_by": {
+   "BLCA": 339,
+   "BRCA": 416,
+   "CESC": 0,
+   "ESCA": 418,
+   "KIRC": 48,
+   "LIHC": 170,
+   "LUSC": 208,
+   "PAAD": 436,
+   "SARC": 0,
+   "THCA": 1
+  },
+  "specific": 943,
+  "specific_dmc_or_high": 500,
+  "underpowered": [
+   "CESC",
+   "SARC"
+  ]
+ },
+ "B_primary": {
+  "candidates": 1202,
+  "excluded_by": {
+   "BLCA": 217,
+   "BRCA": 273,
+   "CESC": 0,
+   "ESCA": 267,
+   "KIRC": 32,
+   "LIHC": 95,
+   "LUSC": 121,
+   "PAAD": 275,
+   "SARC": 0,
+   "THCA": 1
+  },
+  "specific": 663,
+  "specific_dmc_or_high": 334,
+  "underpowered": [
+   "CESC",
+   "SARC"
+  ]
+ },
+ "seconds": 71.6
+}
