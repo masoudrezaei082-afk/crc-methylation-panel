@@ -68,7 +68,7 @@ In TCGA, every colon normal comes from a patient who also has a tumour in the da
 python sensitivity/paired_wilcoxon.py WORK results/paired_sensitivity
 ```
 
-Its outputs are in `results/paired_sensitivity/`.
+Its outputs are in `results/paired_sensitivity/`. The manuscript reports them in Sections 2.2, 3.1 and 3.3, Supplementary Methods S8 and Supplementary Tables S2b–S2c and S5d–S5e.
 
 ## License
 

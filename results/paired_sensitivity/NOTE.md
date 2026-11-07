@@ -4,7 +4,7 @@ All 38 TCGA colon normals come from patients who also have a tumour in the data.
 
 ## Results
 
-- **Panel CpGs.** All 21 distinct CpGs of the blood-compatible and network-prioritized panels remain hypermethylated. Their paired FDR is at most 2.2 × 10⁻⁵, and the paired Δβ differs from the main Δβ by at most 0.07.
+- **Panel CpGs.** All 21 distinct CpGs of the blood-compatible and network-prioritized panels remain hypermethylated. Their paired FDR is at most 2.24 × 10⁻⁵, and the paired Δβ differs from the main Δβ by at most 0.07.
 - **Genome-wide.** There are 38,947 DMCs in the main analysis and 41,103 in the paired analysis. No main DMC changes sign. Of the 2,734 that drop out, 2,730 fall just below |Δβ| 0.2. Across all probes, the Pearson r of the two Δβ is 0.989.
 - **Selection funnel.** The funnel was rerun under six variants (`paired_funnel.csv`):
 

@@ -24,7 +24,8 @@ d769a7209f56bd077ab0ca7b17979c5b  ./logs/stage_pancan.json
 13f1e446ea58fc931ad7728131af52bc  ./logs/stage_rna.json
 d6dc984c926160f6958070c56e290c37  ./logs/stage_specificity.json
 6b9c3b94144bc1a15aab0cc17064e2af  ./metrics.json
-3cd1ab331a473231c4d26e20eb06ffc8  ./paired_sensitivity/NOTE.md
+a3455da3051d4f8b12c5ca69d3d6b330  ./paired_sensitivity/NOTE.md
+3cd1ab331a473231c4d26e20eb06ffc8  ./paired_sensitivity/NOTE.md.prev_paired
 522e90162fc149f7b4ccb1ab91a64d69  ./paired_sensitivity/paired_funnel.csv
 39dd28fd6d286b7f6cc309eba465a5d3  ./paired_sensitivity/paired_panels.csv
 60eea9394eeeab9232b8324cb5f722b6  ./paired_sensitivity/paired_summary.json
